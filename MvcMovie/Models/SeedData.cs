@@ -27,6 +27,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt1029285/",
                         Directors = "Christian Vuissa",
+                        Rating = "PG",
                         RunTime = 91
                     },
 
@@ -38,6 +39,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt0330136/",
                         Directors = "Adam Thomas Anderegg",
+                        Rating = "PG",
                         RunTime = 103
                     },
 
@@ -49,6 +51,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt1303776/",
                         Directors = "John Lyde",
+                        Rating = "PG",
                         RunTime = 85
                     },
 
@@ -60,6 +63,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt0405357/",
                         Directors = "Rodney Henson",
+                        Rating = "PG",
                         RunTime = 94
                     },
 
@@ -71,6 +75,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt0439707/",
                         Directors = "John E. Moyer",
+                        Rating = "PG",
                         RunTime = 90
                     },
 
@@ -82,6 +87,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt0391104/",
                         Directors = "Christian Vuissa",
+                        Rating = "PG",
                         RunTime = 92
                     },
 
@@ -93,6 +99,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt0306069/",
                         Directors = "Kurt Hale",
+                        Rating = "PG",
                         RunTime = 102
                     },
 
@@ -104,6 +111,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt0377038/",
                         Directors = "Scott S. Anderson",
+                        Rating = "PG",
                         RunTime = 112
                     },
 
@@ -115,6 +123,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt4002772/",
                         Directors = "Maclain Nelson",
+                        Rating = "PG",
                         RunTime = 119
                     },
                     
@@ -126,6 +135,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt0250371/",
                         Directors = "Mitch Davis",
+                        Rating = "PG",
                         RunTime = 113
                     },
 
@@ -137,6 +147,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt0410454/",
                         Directors = "Russell Holt",
+                        Rating = "PG",
                         RunTime = 118
                     },
 
@@ -148,6 +159,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt1109520/",
                         Directors = "Kurt Hale",
+                        Rating = "PG",
                         RunTime = 87
                     },
 
@@ -159,6 +171,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt0457530/",
                         Directors = "Sterling Van Wagenen",
+                        Rating = "PG",
                         RunTime = 100
                     },
 
@@ -170,6 +183,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt2509298/",
                         Directors = "T.C. Christensen",
+                        Rating = "PG",
                         RunTime = 99
                     },
                     
@@ -181,6 +195,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt1909270/",
                         Directors = "T.C. Christensen",
+                        Rating = "PG",
                         RunTime = 113
                     },
                     
@@ -192,6 +207,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt0238247/",
                         Directors = "Richard Dutcher",
+                        Rating = "PG",
                         RunTime = 108
                     },
 
@@ -203,6 +219,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt0268200/",
                         Directors = "Richard Dutcher",
+                        Rating = "PG",
                         RunTime = 119
                     },
                     
@@ -214,6 +231,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt0395561/",
                         Directors = "Richard Dutcher",
+                        Rating = "PG",
                         RunTime = 128
                     },
                     
@@ -225,6 +243,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt0460611/",
                         Directors = "Sterling Van Wagenen",
+                        Rating = "PG",
                         RunTime = 89
                     },
 
@@ -236,6 +255,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt2887322/",
                         Directors = "Garrett Batty",
+                        Rating = "PG",
                         RunTime = 107
                     },
 
@@ -247,6 +267,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt3735554/",
                         Directors = "Garrett Batty",
+                        Rating = "PG",
                         RunTime = 113
                     },
                     
@@ -258,6 +279,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt0349159/",
                         Directors = "Gary Rogers",
+                        Rating = "PG",
                         RunTime = 120
                     },
 
@@ -269,6 +291,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt0279732/",
                         Directors = "Michael L. Schaertl",
+                        Rating = "PG",
                         RunTime = 30
                     },
 
@@ -280,6 +303,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt0341540/",
                         Directors = "Kurt Hale",
+                        Rating = "PG",
                         RunTime = 101
                     },
 
@@ -291,6 +315,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt0479974/",
                         Directors = "Chris Heimerdinger",
+                        Rating = "PG",
                         RunTime = 90
                     },
 
@@ -302,6 +327,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt0377071/",
                         Directors = "Kurt Hale",
+                        Rating = "PG",
                         RunTime = 82
                     },
 
@@ -313,6 +339,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt0396223/",
                         Directors = "Will Swenson",
+                        Rating = "PG",
                         RunTime = 93
                     },
 
@@ -324,6 +351,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt0478262/",
                         Directors = "Michael Amundsen",
+                        Rating = "PG",
                         RunTime = 105
                     },
 
@@ -335,6 +363,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt4003774/",
                         Directors = "Blair Treu",
+                        Rating = "PG",
                         RunTime = 78
                     },
 
@@ -346,6 +375,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt0799997/",
                         Directors = "McKay Daines",
+                        Rating = "PG",
                         RunTime = 81
                     },
                     
@@ -357,6 +387,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt3877296/",
                         Directors = "T.C. Christensen",
+                        Rating = "PG",
                         RunTime = 94
                     },
 
@@ -368,6 +399,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt2562132/",
                         Directors = "Christian Vuissa",
+                        Rating = "PG",
                         RunTime = 95
                     },
 
@@ -379,6 +411,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt1464606/",
                         Directors = "John Lyde",
+                        Rating = "PG",
                         RunTime = 93
                     },
 
@@ -390,6 +423,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt1091225/",
                         Directors = "T.C. Christensen, Gary Cook",
+                        Rating = "PG",
                         RunTime = 98
                     },
 
@@ -401,6 +435,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt0373283/",
                         Directors = "Ryan Little",
+                        Rating = "PG",
                         RunTime = 90
                     },
 
@@ -412,6 +447,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt1270114/",
                         Directors = "Ryan Little",
+                        Rating = "PG",
                         RunTime = 94
                     },
 
@@ -423,6 +459,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt2082415/",
                         Directors = "Ryan Little",
+                        Rating = "PG",
                         RunTime = 94
                     },
 
@@ -434,6 +471,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt0311614/",
                         Directors = "Ryan Little",
+                        Rating = "PG",
                         RunTime = 90
                     },
 
@@ -445,6 +483,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt1212054/",
                         Directors = "Brian Brough",
+                        Rating = "PG",
                         RunTime = 93
                     },
 
@@ -456,6 +495,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt2738706/",
                         Directors = "Adam White",
+                        Rating = "PG",
                         RunTime = 99
                     },
 
@@ -467,6 +507,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt0840322/",
                         Directors = "Ryan Little",
+                        Rating = "PG",
                         RunTime = 112
                     },
 
@@ -478,6 +519,7 @@ namespace MvcMovie.Models
                         Price = 9.99M,
                         URL = "https://www.imdb.com/title/tt1580286/",
                         Directors = "Jorge Ramirez Rivera",
+                        Rating = "PG",
                         RunTime = 95
                     }
 

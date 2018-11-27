@@ -1,34 +1,56 @@
-﻿@model IEnumerable<MvcMovie.Models.Movie>
+﻿@model MvcMovie.Models.MovieGenreViewModel
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Movies";
 }
 
-<h2>Index</h2>
+<h2>LDS Movies</h2>
 
 <p>
     <a asp-action="Create">Create New</a>
 </p>
+<form asp-controller="Movies" asp-action="Index" method="get">
+    <p>
+        <select asp-for="MovieGenre" asp-items="Model.Genres">
+            <option value="">All</option>
+        </select>
+
+        Title: <input type="text" name="SearchString">
+        <input type="submit" value="Filter" />
+    </p>
+</form>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Title)
+                <a asp-action="Index" asp-route-sortBy="@ViewData["TitleSortParm"]">@Html.DisplayNameFor(model => model.Movies[0].Title)</a>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ReleaseDate)
+                <a asp-action="Index" asp-route-sortBy="@ViewData["DateSortParm"]">@Html.DisplayNameFor(model => model.Movies[0].ReleaseDate)</a>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Genre)
+                @Html.DisplayNameFor(model => model.Movies[0].Genre)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Price)
+                @Html.DisplayNameFor(model => model.Movies[0].Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Movies[0].RunTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Movies[0].Rating)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Movies[0].Directors)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Movies[0].URL)
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
+@foreach (var item in Model.Movies) {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.Title)
@@ -42,6 +64,19 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Price)
             </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RunTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rating)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Directors)
+            </td>
+            <td>
+                <a href="@item.URL" target="_blank">IMDB</a>
+            </td>
+
             <td>
                 <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
