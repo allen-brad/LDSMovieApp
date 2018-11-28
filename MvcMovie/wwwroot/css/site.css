@@ -35,3 +35,18 @@ body {
         display: none;
     }
 }
+
+/* My Custom Styles */
+.navbar-inverse {
+    background-color: #102588;
+}
+.navbar-inverse .navbar-brand {
+    color: #f1c908;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #f1c908;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #102588;
+}
